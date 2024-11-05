@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran PON Aceh</title>
+    <style>
+        /* Reset margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Mengatur flexbox pada elemen utama */
+        body {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5dc; /* Warna krem untuk latar belakang body */
+            color: #333;
+        }
+        /* Gaya untuk elemen header, footer, main */
+        header {
+            background-color: #006400; /* Hijau tua khas Aceh untuk header */
+            color: white;
+            padding: 1.5em;
+            text-align: center;
+            background-image: url('https://example.com/motif-aceh.jpg'); /* Ganti dengan URL gambar motif Aceh */
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+        footer {
+            background-color: #004d00; /* Hijau lebih gelap untuk footer */
+            color: white;
+            padding: 1em;
+            text-align: center;
+            margin-top: 2em;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5em;
+            background-color: #f5f5dc; /* Warna krem untuk latar belakang main */
+        }
+        /* Gaya untuk elemen nav, article, dan aside */
+        nav {
+            margin-top: 1em;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffa500; /* Warna oranye muda saat dihover */
+        }
+        /* Layout untuk konten utama */
+        .content-wrapper {
+            display: flex;
+            gap: 1em;
+            margin-top: 1.5em;
+        }
+        .articles {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        article {
+            background-color: #ffffff;
+            padding: 1em;
+            border: 1px solid #006400;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        aside {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 1em;
+            border: 1px solid #006400;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Bagian Header -->
+    <header>
+        <h1>Pendaftaran PON Aceh 2024</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="pendaftaran.html">Daftar</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Bagian Main -->
+    <main>
+        <section id="intro">
+            <article>
+                <h2>Selamat Datang di PON Aceh 2024</h2>
+                <p>Bergabunglah dalam perhelatan akbar olahraga nasional di tanah Aceh. Raih kesempatan menjadi juara dan harumkan nama daerah di ajang PON Aceh 2024!</p>
+            </article>
+        </section>
+        
+        <div class="content-wrapper">
+            <!-- Artikel Utama -->
+            <div class="articles">
+                <article>
+                    <h2>Ketentuan Pendaftaran</h2>
+                    <p>Untuk berpartisipasi dalam PON Aceh 2024, peserta diharapkan memenuhi ketentuan berikut:</p>
+                    <ul>
+                        <li>Warga Negara Indonesia dengan usia 16-35 tahun.</li>
+                        <li>Terdaftar sebagai atlet aktif pada cabang olahraga yang diikuti.</li>
+                        <li>Memiliki surat rekomendasi dari pengurus daerah atau klub resmi.</li>
+                        <li>Mematuhi etika dan peraturan selama pertandingan berlangsung.</li>
+                    </ul>
+                    <p>Persiapkan diri Anda dan buktikan kemampuan Anda di panggung olahraga nasional!</p>
+                </article>
+                <article>
+                    <h2>Jadwal dan Lokasi</h2>
+                    <p>PON Aceh 2024 akan diadakan di berbagai venue utama di Banda Aceh, dengan pembukaan acara yang spektakuler!</p>
+                    <ul>
+                        <li><strong>Tanggal Pembukaan:</strong> 5 Oktober 2024</li>
+                        <li><strong>Lokasi Pembukaan:</strong> Stadion Harapan Bangsa, Banda Aceh</li>
+                        <li><strong>Durasi:</strong> 5-25 Oktober 2024</li>
+                    </ul>
+                    <p>Jangan lewatkan juga festival budaya Aceh, yang akan menambah semarak suasana PON kali ini. Saksikan dan dukung atlet dari seluruh Indonesia!</p>
+                </article>
+            </div>
+
+            <!-- Bagian Aside -->
+            <aside>
+                <h2>Foto & Profil</h2>
+                <p>Mari meraihkan pon aceh Juah,Gigeh,Meuhase.</p>
+                <img src="pon aceh.jpeg" alt="Foto Peserta" style="width:100%; height:auto;">
+            </aside>
+        </div>
+    </main>
+
+    <!-- Bagian Footer -->
+    <footer>
+        <p>&copy; 2024 Panitia PON Aceh. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
